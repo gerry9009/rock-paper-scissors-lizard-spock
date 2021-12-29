@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/rock-paper-scissors-lizard-spock/static/css/main.17050b8d.css",
+    "main.js": "/rock-paper-scissors-lizard-spock/static/js/main.479ff91d.js",
+    "static/js/787.a9a7cf82.chunk.js": "/rock-paper-scissors-lizard-spock/static/js/787.a9a7cf82.chunk.js",
+    "static/media/rules.png": "/rock-paper-scissors-lizard-spock/static/media/rules.0e542ca3fb015524bbb2.png",
+    "static/media/spock-hand.png": "/rock-paper-scissors-lizard-spock/static/media/spock-hand.df07fb7d3e11f1e438c0.png",
+    "static/media/scissors-hand.png": "/rock-paper-scissors-lizard-spock/static/media/scissors-hand.6cce61aa8147be9b04a2.png",
+    "static/media/rock-hand.png": "/rock-paper-scissors-lizard-spock/static/media/rock-hand.1a498b02ec36289710e6.png",
+    "static/media/paper-hand.png": "/rock-paper-scissors-lizard-spock/static/media/paper-hand.805fdadfeb6a56d243c6.png",
+    "static/media/lizard-hand.png": "/rock-paper-scissors-lizard-spock/static/media/lizard-hand.93cb306b63b562552c33.png",
+    "index.html": "/rock-paper-scissors-lizard-spock/index.html",
+    "main.17050b8d.css.map": "/rock-paper-scissors-lizard-spock/static/css/main.17050b8d.css.map",
+    "main.479ff91d.js.map": "/rock-paper-scissors-lizard-spock/static/js/main.479ff91d.js.map",
+    "787.a9a7cf82.chunk.js.map": "/rock-paper-scissors-lizard-spock/static/js/787.a9a7cf82.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17050b8d.css",
+    "static/js/main.479ff91d.js"
+  ]
+}
