@@ -1,0 +1,78 @@
+.game-container {
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.img-link {
+    text-decoration: none;
+    display: flex;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 75px;
+}
+
+.game-img {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 2vh 2vw;
+}
+
+.game-img-rock {
+    background: rgb(194, 15, 15);
+}
+
+.game-img-paper {
+    background: rgb(231, 228, 9);
+}
+
+.game-img-scissors {
+    background: rgb(235, 16, 198);
+}
+
+.game-img-lizard {
+    background: rgb(28, 179, 53);
+}
+
+.game-img-spock {
+    background: rgb(47, 145, 211);
+}
+
+
+
+.img-title {
+    color: white;
+    font-size: 1.2rem;
+}
+
+@media (min-width: 230px) {
+    .game-img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (min-width: 576px) {
+    .game-img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .game-img {
+        width: 150px;
+        height: 150px;
+    }
+}

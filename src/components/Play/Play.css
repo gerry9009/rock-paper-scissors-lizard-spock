@@ -1,0 +1,77 @@
+.player-result-container {
+    width: 90vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.player-result-img {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.player-result-choice {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
+.choice-title {
+    min-height: 50px;
+    text-align: center;
+}
+
+.player-result-countdown {
+    background: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+}
+
+.play-result-scoreboard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 700;
+}
+
+.scoreboard-title {
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    margin: 6px;
+    font-weight: 900;
+}
+
+.play-link {
+    text-decoration: none;
+    display: flex;
+    font-weight: 700;
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.play-link:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
