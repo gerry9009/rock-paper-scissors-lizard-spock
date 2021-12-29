@@ -37,6 +37,7 @@
 
 .popup-container {
     width: 80vw;
+    max-width: 900px;
     display: flex;
     flex-direction: column-reverse;
     background: rgb(87, 87, 87);
