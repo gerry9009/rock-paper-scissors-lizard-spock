@@ -12,6 +12,5 @@
 * Spock vaporizes Rock
 * Rock crushes Scissors
 
-The game published in here
 ## **The game published in [here](https://gerry9009.github.io/rock-paper-scissors-lizard-spock/)**
 

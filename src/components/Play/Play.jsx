@@ -12,7 +12,7 @@ import spock from '../../img/spock-hand.png';
 
 export default class Play extends React.Component {
     state = {
-        countDown : 3,
+        countDown : 2,
         winner : null,
         reason : "",
     }
@@ -84,7 +84,7 @@ export default class Play extends React.Component {
         })
     }
 
-// this method evaluate the winner, 
+// this method evaluates the winner, 
 // call getReason method and handleScores method from the App.jsx component, 
 // in addition, modify this component state's winner element 
     getWinner() {
@@ -124,7 +124,7 @@ export default class Play extends React.Component {
                 <div className='player-result-container'>
                     <div className='player-result-img'>
                         <div className='player-result-choice'>
-                            <h3 className='choice-title'>Player choice: </h3>
+                            <h3 className='choice-title'>Player's choice: </h3>
                             <img 
                                 className={"game-img game-img-" + this.props.playerChoice} 
                                 src={this.image[this.props.playerChoice]} 
@@ -133,7 +133,7 @@ export default class Play extends React.Component {
                             <h3 className='img-title'>{this.props.playerChoice}</h3>
                         </div>
                         <div className='player-result-choice'>
-                            <h3 className='choice-title'>Computer choice: </h3>
+                            <h3 className='choice-title'>Computer's choice: </h3>
                             <img 
                                 className={"game-img game-img-" + this.props.computerChoice}
                                 src={this.image[this.props.computerChoice]} 
@@ -157,7 +157,7 @@ export default class Play extends React.Component {
                         }
                     </div>               
                     <Link to="/" className='play-link'>
-                        <p>New Game</p>
+                        <p>Play again</p>
                     </Link>
                 </div> 
     
@@ -169,7 +169,7 @@ export default class Play extends React.Component {
             <div className='player-result-container'>
                 <div className='player-result-img'>
                     <div className='player-result-choice'>
-                        <h3 className='choice-title'>Player choice: </h3>
+                        <h3 className='choice-title'>Player's choice: </h3>
                         <img 
                             className={"game-img game-img-" + this.props.playerChoice} 
                             src={this.image[this.props.playerChoice]} 
@@ -178,7 +178,7 @@ export default class Play extends React.Component {
                         <h3 className='img-title'>{this.props.playerChoice}</h3> 
                     </div>  
                     <div className='player-result-choice'>
-                        <h3 className='choice-title'>Computer choice: </h3>
+                        <h3 className='choice-title'>Computer's choice: </h3>
                         <div className='game-img player-result-countdown'>
                             <p>{this.state.countDown}</p>
                         </div> 

@@ -29,14 +29,18 @@ class App extends React.Component {
   } 
 
   handleScores = (winner) => {
-    if (winner === "draw") {return};
+    if (winner === "draw") return;
     winner == "player" ? 
-    this.setState({
+    this.setState(
+      {
       playerScore : (this.state.playerScore + 1)
-    }) :
-    this.setState({
+      }
+    ) :
+    this.setState(
+      {
       computerScore : (this.state.computerScore + 1)
-    })
+      }
+    );
   }
 
   render() {
