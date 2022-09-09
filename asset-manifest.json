@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rock-paper-scissors-lizard-spock/static/css/main.4d939b64.css",
-    "main.js": "/rock-paper-scissors-lizard-spock/static/js/main.73e8a86c.js",
+    "main.js": "/rock-paper-scissors-lizard-spock/static/js/main.b5e988da.js",
     "static/js/787.a9a7cf82.chunk.js": "/rock-paper-scissors-lizard-spock/static/js/787.a9a7cf82.chunk.js",
     "static/media/rules.png": "/rock-paper-scissors-lizard-spock/static/media/rules.0e542ca3fb015524bbb2.png",
     "static/media/spock-hand.png": "/rock-paper-scissors-lizard-spock/static/media/spock-hand.df07fb7d3e11f1e438c0.png",
@@ -11,11 +11,11 @@
     "static/media/lizard-hand.png": "/rock-paper-scissors-lizard-spock/static/media/lizard-hand.93cb306b63b562552c33.png",
     "index.html": "/rock-paper-scissors-lizard-spock/index.html",
     "main.4d939b64.css.map": "/rock-paper-scissors-lizard-spock/static/css/main.4d939b64.css.map",
-    "main.73e8a86c.js.map": "/rock-paper-scissors-lizard-spock/static/js/main.73e8a86c.js.map",
+    "main.b5e988da.js.map": "/rock-paper-scissors-lizard-spock/static/js/main.b5e988da.js.map",
     "787.a9a7cf82.chunk.js.map": "/rock-paper-scissors-lizard-spock/static/js/787.a9a7cf82.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d939b64.css",
-    "static/js/main.73e8a86c.js"
+    "static/js/main.b5e988da.js"
   ]
 }
